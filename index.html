@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Defender</title>
+    <meta name="Author" content="Jacob Wunder"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <script src="../lib/jquery-1.11.2.min.js"></script>
+    <script src="../lib/underscore-min.js"></script>
+    <script src="../lib/backbone-min.js"></script>
+    <script src="../lib/paper-full.min.js"></script>
+
+    <script type="text/paperscript" src="js/bundle.js" canvas="mainCanvas"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <canvas id="mainCanvas" resize></canvas>
+    </div>
+    <div class="header">
+        <ul>
+            <li>
+                <div id="healthContainer">
+                    <span id="health"></span> <span id="injury"></span>
+                </div>
+            </li>
+            <li>
+                <span id="countdown"> <h1 id="countdownText"></h1></span>
+            </li>
+            <li>
+                <span id="score"></span>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
