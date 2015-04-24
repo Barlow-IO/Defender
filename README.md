@@ -18,5 +18,11 @@
  4. `npm install` 
     
 ###Running:
-
- 1. Using brackets run live preview on `index.html`
+ 
+ 1. Open terminal
+ 
+ 2. Once again, `cd /path/to/Defender`
+ 
+ 3. `npm run watch`
+ 
+ 4. Using brackets run live preview on `index.html`
